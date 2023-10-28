@@ -1,0 +1,62 @@
+:root {
+  --bg: rgba(0, 0, 0, 0.6);
+  --main-text: white;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1.5fr 1fr 5fr 0.5fr;
+}
+
+.wrapper > div {
+  border: 1px solid lightcoral;
+}
+
+.header {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: var(--main-text);
+}
+
+.navbar {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.navbar button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  max-height: 50px;
+  cursor: pointer;
+  color: var(--main-text);
+  transition: 0.15s;
+}
+
+.navbar button:hover {
+  /* border-bottom: 1px solid var(--main-text); */
+  margin-bottom: 10px;
+}
+
+.navbar button:active {
+  border-bottom: 1px solid var(--main-text);
+}
+
+.main {
+
+}
