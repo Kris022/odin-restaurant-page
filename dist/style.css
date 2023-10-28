@@ -17,7 +17,7 @@ body {
 }
 
 .wrapper > div {
-  border: 1px solid lightcoral;
+  /* border: 1px solid lightcoral; */
 }
 
 .header {
@@ -58,5 +58,21 @@ body {
 }
 
 .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.slogan {
+    background-color: var(--bg);
+    color: var(--main-text);
+    padding: 8rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text);
+    background-color: var(--bg);
 }
